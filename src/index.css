@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.marginLeft{margin-left: 20px}
+.marginRight{margin-right: 20px}
+.marginTop{margin-top: 20px}
+.marginBottom{margin-bottom: 20px}
+.paddingLeft{padding-left: 20px}
+.paddinRight{padding-right: 20px}
+.paddingTop{padding-top: 20px}
+.paddingBottom{padding-bottom: 20px}
