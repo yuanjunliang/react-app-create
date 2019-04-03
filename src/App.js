@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
-import JLRouter from './router/router'
+import React,{PureComponent} from 'react'
+import {hashHistory} from 'react-router'
+import Routers from './Routers'
 
-class App extends Component {
-  render() {
-    return (
-      <JLRouter/>
-    );
-  }
+export default class App extends PureComponent{
+    constructor(props){
+        super(props)
+    }
+
+    render(){
+        return(
+            <Routers history={hashHistory}/>
+        )
+    }
 }
-
-export default App;

@@ -1,2 +1,1 @@
-# react-app-create
-create react app
+# dapppstore_react
