@@ -5,7 +5,7 @@ const ora = require('ora');
 const chalk = require('chalk');
 const symbols = require('log-symbols');
 
-const spinner = ora('start create fibos dapp')
+const spinner = ora('start create react app')
 
 program.version('1.0.0', '-v, --version')
        .command('init <name>')
@@ -13,9 +13,9 @@ program.version('1.0.0', '-v, --version')
           spinner.start()
           download('direct:https://github.com/yuanjunliang/react-app-create.git', 'test/tmp', {clone: true}, (err) => {
               if(err){
-                spinner.fail('create fibos dapp failed')
+                spinner.fail('create react app failed')
               }else{
-                spinner.succeed('create fibos dapp success')
+                spinner.succeed('create react app success')
               }
           })
        });
