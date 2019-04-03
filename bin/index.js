@@ -2,8 +2,6 @@
 const program = require('commander');
 const download = require('download-git-repo');
 const ora = require('ora');
-const chalk = require('chalk');
-const symbols = require('log-symbols');
 
 const spinner = ora('start create react app')
 
