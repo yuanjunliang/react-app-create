@@ -9,10 +9,7 @@
   },
   "dependencies": {
     "antd": "^3.8.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-router": "^3.2.0",
-    "react-scripts": "1.1.4"
+    "react-router": "^3.2.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -21,6 +18,9 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
     "babel-plugin-import": "^1.8.0",
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
