@@ -1,10 +1,14 @@
 {
-    "presets": ["react"],
     "plugins": [
         ["import",{
             "libraryName":"antd",
             "libraryDirectory":"es",
             "style":true
         }]
-    ]
+    ],
+    "env": {
+        "development":{
+            "compact":false
+        }
+    }
 }
